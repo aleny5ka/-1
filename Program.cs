@@ -7,7 +7,7 @@ namespace Observer
         static void Main(string[] args)
         {
             // Создаем наблюдаемый объект.
-            var subject = new Subject("Объект 1");
+            var subject = new Subject("Объект 1"); //Объясни Комылятова АК
 
             // Создаем наблюдателя.
             var observer = new Observer ("Наблюдатель 1", subject);
